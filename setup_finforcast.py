@@ -25,3 +25,6 @@ import shap
 
 # Initialize the Dask client
 client = Client()
+
+def initialize_environment():
+    print("Environment initialized.")
